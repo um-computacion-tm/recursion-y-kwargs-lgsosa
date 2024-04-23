@@ -5,11 +5,4 @@ def factorial(valor):
 result = factorial(5)
 print(result)
 
-def factorial2(value):
-    resultado = value
-    while value > 2:
-        resultado = resultado * (value - 1)
-        value -= 1
-    return resultado
-resultado = factorial2(4)
-print(resultado)
+
